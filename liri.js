@@ -91,7 +91,6 @@ function spotifyThis(song) {
       console.log("ARTIST: " + artist);
     }
   });
-  console.log("YOU'VE MADE IT TO THE SPOTIFY FUNCTION, YOU'RE SONG CHOICE WAS: " + song);
 }
 
 function movieThis(movie) {
