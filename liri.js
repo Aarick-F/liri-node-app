@@ -48,7 +48,11 @@ function startApp() {
             name: "movieChoice"
           }
         ]).then(data => {
-          movieThis(data.movieChoice);
+          if(!data.movieChoice) {
+            movieThis("Mr Nobody");
+          } else {
+            movieThis(data.movieChoice);
+          }
         });
         break;
       case "do-what-it-says":
